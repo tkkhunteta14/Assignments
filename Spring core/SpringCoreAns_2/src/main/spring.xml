@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context="http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+  
+  <context:component-scan base-package="springcore.SpringCoreAns_2"></context:component-scan>
+  
+   <bean id="question" class="springcore.SpringCoreAns_2.Question">
+        <property name="questionId"  value="1"/>
+        <property name="question" value="what is my name?"/>
+        <property name="answers">
+            <list>
+                <value>My name is tarun</value>
+               
+            </list>
+        </property>
+    </bean>
+
+   <bean id="Question1" class="SpringCoreAns_2.Question">
+        <property name="questionId"  value="1"/>
+        <property name="question" value="what is my name?"/>
+        <property name="answersSet">
+            <set>
+                <value>My name is tarun </value>
+            </set>
+        </property>
+    </bean>
+                                 
+    <bean id="Question2" class="SpringCoreAns_2.Question">
+        <property name="questionId"  value="1"/>
+        <property name="question" value="My name is Java"/>
+        <property name="answersMap">
+            <map>
+                <entry key="1" value="Java is a programming language and computing platform first released by Sun Microsystems in 1995"/>
+                <entry key="2" value=" It has evolved from humble beginnings to power a large share of today’s digital world"/>
+            </map>
+        </property>
+    </bean> 
+  
+  
+</beans>
