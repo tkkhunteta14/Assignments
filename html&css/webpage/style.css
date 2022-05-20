@@ -1,0 +1,47 @@
+body{
+    font-family: 'montserrat-r';
+
+}
+
+
+.wrapper{
+    border-top:#083180 10px solid;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.font-size{
+    font-size: 36px;
+}
+.color{
+    color: black;
+} 
+.color2{
+    background-color: #E2ECFF;
+}
+
+.bg{
+    background-color:#083180;
+}
+.color3{
+    background-color: #C3D2EF;
+}
+.font-size1{
+font-size: 20px;
+}
+.font-size2{
+font-size: 16px;
+}
+.nav-tabs .nav-link.active{
+    background-color: #E2ECFF;
+    border-bottom: 1px  #E2ECFF solid;
+
+}
+.padding{
+    padding: 19px;
+}
+
+.anchor{
+text-decoration: underline;
+}
